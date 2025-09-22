@@ -1,0 +1,22 @@
+{
+  "name": "gfe-energy-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Energy Dashboard Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pino": "^8.16.2",
+    "pino-http": "^8.5.0",
+    "@influxdata/influxdb-client": "^1.33.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
